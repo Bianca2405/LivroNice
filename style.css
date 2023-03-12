@@ -1,5 +1,27 @@
-header
-{
-    background-color: #53BC8A;
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho
+{
+    background-color: #AAD268;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0;
+
+}
+
+.cabecalho-imagem
+{width: 10%;
+
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 17px ;
 }
