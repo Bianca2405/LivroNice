@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+body
+{
+    font-family: 'Inter', sans-serif;
+
+
+}
 
 .cabecalho
 {
@@ -16,12 +22,48 @@
 }
 
 .cabecalho-imagem
-{width: 10%;
-
+{   width: 10%;
+    
 }
-
-.cabecalho-lista-item{
+.cabecalho-lista-item
+{
     display: inline-block;
     margin: 0 16px;
     font-size: 17px ;
+    
+}
+
+.Imagem-sobre
+{
+    width:15%;
+
+}
+.sobre
+{
+    background-image: linear-gradient(#AAD268,#DCEBC3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.sobre-div-conteudo
+{
+    width: 35%;
+
+}
+.titulo-sobre
+{
+    padding: 10px 0;
+
+}
+.livro-imagem
+{
+    width: 120px;
+
+}
+.livro-div
+{
+    text-align: center;
+
 }
