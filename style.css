@@ -22,20 +22,20 @@ font-family: 'Poppins', sans-serif;
 }
 
 .cabecalho-imagem
-{   width: 15%;
+{   width: 10%;
    
 }
 .cabecalho-lista-item
 {
     display: inline-block;
     margin: 0 16px;
-    font-size: 20px ;
+    font-size: 15px ;
     
 }
 
 .Imagem-sobre
 {
-    width:20%;
+    width:15%;
 
 }
 .sobre
@@ -59,24 +59,30 @@ font-family: 'Poppins', sans-serif;
 }
 .livro-imagem
 {
+    
     width: 120px;
+    
 
 }
 .livro-div
 {
+    
     text-align: center;
+    
 
 }
 .melhores-avaliados-titulo
 {
     text-align: center;
     padding: 50px 0;
+    background-color: #DCEBC3;
 
 }
 .livro-todos
 {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    background-color: #DCEBC3;
 
 }
 .rodape
@@ -88,5 +94,22 @@ font-family: 'Poppins', sans-serif;
 {
     height: 60px;
     padding: 5px 0;
+
+}
+.erro-imagem
+{
+    width:20%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+    
+    
+}
+.embreve-titulo
+{
+    
+
+ text-align: center;
 
 }
