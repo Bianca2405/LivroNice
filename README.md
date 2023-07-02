@@ -1,1 +1,1 @@
-https://github.com/Bianca2405/LivroNice/settings/pages
+https://bianca2405.github.io/LivroNice/
