@@ -62,14 +62,12 @@ font-family: 'Poppins', sans-serif;
     
     width: 120px;
     
-
 }
 .livro-div
 {
     
     text-align: center;
     
-
 }
 .melhores-avaliados-titulo
 {
@@ -112,4 +110,65 @@ font-family: 'Poppins', sans-serif;
 
  text-align: center;
 
+}
+
+@media screen and (max-width: 780px)
+{
+   .titulo-sobre,.sobre
+   {
+    font-size: 10px;
+
+   }
+   .cabecalho-lista-item{
+
+    font-size: 10px;
+    margin: 0px 10px;
+   }
+
+   .cabecalho-imagem
+   {
+     width: 20%;
+   }
+   .melhores-avaliados-titulo{
+
+    font-size: 15px;
+   }
+  .livro-todos{
+
+    grid-template-columns: 15% 25% 25% 25% 35% ;
+  }
+   .livro-imagem{
+    width: 70px
+    
+   }
+   
+   .livro-div{
+    
+    text-align: center;
+    font-size: 50%;
+    
+   }
+   .rodape-imagem,.rodape
+   {
+    height: 50px;
+    padding: 5px 0;
+   }
+
+   .sobre{
+    padding: 10px 0;
+   }
+
+   .Imagem-sobre{
+
+    padding: 0 30px;
+   }
+
+   .sobre-div-conteudo{
+    padding: 0 1px;
+   }
+
+   .Imagem-sobre{
+
+    width: 110px;
+   }
 }
