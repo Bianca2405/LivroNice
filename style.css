@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body
 {
@@ -12,12 +13,15 @@ font-family: 'Poppins', sans-serif;
 
 .cabecalho
 {
-    background-color: #AAD268;
-    color:white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    overflow: hidden;
+    background-color: #AAD268;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    
 
 }
 
@@ -30,8 +34,10 @@ font-family: 'Poppins', sans-serif;
     display: inline-block;
     margin: 0 16px;
     font-size: 15px ;
+    padding: 0 5px;
     
 }
+
 
 .Imagem-sobre
 {
@@ -45,7 +51,7 @@ font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
+    padding: 100px 0;
 }
 .sobre-div-conteudo
 {
@@ -68,7 +74,17 @@ font-family: 'Poppins', sans-serif;
     
     text-align: center;
     
+
+  
+    
 }
+
+.livro-nome {
+
+    
+    color: black;
+}
+
 .melhores-avaliados-titulo
 {
     text-align: center;
@@ -81,6 +97,8 @@ font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20% ;
     background-color: #DCEBC3;
+    text-decoration: none;
+   
 
 }
 .rodape
@@ -111,6 +129,72 @@ font-family: 'Poppins', sans-serif;
  text-align: center;
 
 }
+
+.titulo-pesquisa{
+
+    padding-top: 100px;
+    background-color:  #DCEBC3;
+    text-align: center;
+    font-size: 150%;
+
+}
+
+.pesquisa{
+    
+    padding-left: 775px;
+    width: 300px;
+    
+}
+ .pesquisa-selection{
+    background-color:  #DCEBC3;
+    padding: 60px 0;
+
+ }
+
+ .pesquisa-info{
+
+    text-align: center;
+    padding-top: 8px;
+    font-size: 100%;
+    
+ }
+    
+.genero-titulo{
+
+    text-align: center;
+    padding: 0 100px;
+    background-color: #DCEBC3 ;
+
+}
+.lista-genero-item{
+
+    text-align: center;
+    padding: 5px 0;
+    background-color: #DCEBC3 ;
+}
+html{
+
+    scroll-behavior: smooth;
+}
+#lista-id a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar a:hover{
+
+    background: #DCEBC3;
+    
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #0bce01;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+  }
 
 @media screen and (max-width: 780px)
 {
@@ -171,4 +255,6 @@ font-family: 'Poppins', sans-serif;
 
     width: 110px;
    }
+
+   
 }
