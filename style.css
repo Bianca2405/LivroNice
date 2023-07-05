@@ -139,10 +139,9 @@ font-family: 'Poppins', sans-serif;
 
 }
 
-.pesquisa{
+.pesquisa-div{
     
-    padding-left: 775px;
-    width: 300px;
+    text-align: center;
     
 }
  .pesquisa-selection{
@@ -157,6 +156,12 @@ font-family: 'Poppins', sans-serif;
     padding-top: 8px;
     font-size: 100%;
     
+ }
+
+ .pesquisa{
+
+    width: 15%;
+    padding-left: 780px;
  }
     
 .genero-titulo{
@@ -194,6 +199,18 @@ html{
     text-align: center;
     padding: 20px 10px;
     text-decoration: none;
+  }
+
+  
+
+  .mobile-menu-icon{
+     
+    display: none;
+  }
+
+  .mobile-menu{
+
+    display: none;
   }
 
 @media screen and (max-width: 780px)
@@ -239,7 +256,7 @@ html{
    }
 
    .sobre{
-    padding: 10px 0;
+    padding: 50px 0;
    }
 
    .Imagem-sobre{
@@ -255,6 +272,43 @@ html{
 
     width: 110px;
    }
+   
+   .cabecalho-lista-item
+{
+   
+    margin: 0 5px;
+    font-size: 10px ;
+    padding: 0 0;
+    
+}
+  
+.navbar a{
+
+    padding: 10px 1px;
+}
+   
+.pesquisa{
+
+    width: 40%;
+    padding-left: 135px;
+}
+
+.pesquisa-div{
+
+    font-size: 12px;
+}
+
+.genero-titulo{
+
+    font-size: 15px;
+    padding: 0 1px;
+}
+.lista-genero-item{
+
+    font-size: 15px;
+    padding: 2px 1px;
+}
+
+   }
 
    
-}
